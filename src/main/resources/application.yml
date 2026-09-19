@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: taskmanager
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/taskmanager?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: taskmanager
+    password: taskmanager
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+jwt:
+  secret: ${JWT_SECRET:development-secret-change-this-in-production-must-be-long-enough}
+  expiration: 86400000
