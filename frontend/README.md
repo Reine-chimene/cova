@@ -1,6 +1,6 @@
-# Frontend — COVA Task Manager
+# Frontend — Gestionnaire de tâches COVA
 
-Interface React (Vite + TypeScript + Tailwind) du projet **COVA Task Manager**.
+Interface React (Vite + TypeScript + Tailwind) du projet **Gestionnaire de tâches COVA**.
 
 La documentation complète (installation, API, Docker, tests) se trouve à la racine du dépôt :
 

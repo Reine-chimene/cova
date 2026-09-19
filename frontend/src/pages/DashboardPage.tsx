@@ -130,7 +130,7 @@ export function DashboardPage() {
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-indigo-600">
-              COVA Task Manager
+              Gestionnaire de tâches COVA
             </p>
             <h1 className="text-2xl font-bold text-slate-900">Tableau de bord</h1>
             {email ? (

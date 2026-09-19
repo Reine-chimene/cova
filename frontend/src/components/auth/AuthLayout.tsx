@@ -12,7 +12,7 @@ export function AuthLayout({ title, subtitle, children }: AuthLayoutProps) {
       <div className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
         <div className="mb-6 text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-indigo-600">
-            COVA Task Manager
+            Gestionnaire de tâches COVA
           </p>
           <h1 className="mt-2 text-2xl font-bold text-slate-900">{title}</h1>
           <p className="mt-2 text-sm text-slate-600">{subtitle}</p>

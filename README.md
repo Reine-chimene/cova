@@ -1,4 +1,4 @@
-# COVA Task Manager
+# Gestionnaire de tâches COVA
 
 Application web full-stack de gestion de tâches, réalisée dans le cadre d’un test technique COVA.
 
@@ -8,7 +8,7 @@ Application web full-stack de gestion de tâches, réalisée dans le cadre d’u
 
 ## Présentation
 
-COVA Task Manager permet à chaque utilisateur de s’inscrire, de se connecter via JWT, puis de gérer ses propres tâches (création, consultation, modification, suppression, filtrage et recherche). L’interface est en **français**.
+Le gestionnaire de tâches COVA permet à chaque utilisateur de s’inscrire, de se connecter via JWT, puis de gérer ses propres tâches (création, consultation, modification, suppression, filtrage et recherche). L’interface est en **français**.
 
 ---
 
