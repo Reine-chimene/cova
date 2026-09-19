@@ -4,6 +4,19 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Frontend ###
+frontend/node_modules/
+frontend/dist/
+
+### Environment ###
+.env
+.env.*
+!.env.example
+
+### Logs ###
+*.log
+logs/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -31,3 +44,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
