@@ -3,9 +3,9 @@ spring:
     name: taskmanager
 
   datasource:
-    url: jdbc:mysql://localhost:3306/taskmanager?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    username: taskmanager
-    password: taskmanager
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:taskmanager}?sslMode=${DB_SSL_MODE:DISABLED}&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: ${DB_USER:taskmanager}
+    password: ${DB_PASSWORD:taskmanager}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -17,7 +17,7 @@ spring:
         format_sql: true
 
 server:
-  port: 8080
+  port: ${PORT:8080}
 
 jwt:
   secret: ${JWT_SECRET:development-secret-change-this-in-production-must-be-long-enough}
